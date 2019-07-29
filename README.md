@@ -1,10 +1,10 @@
 [![npm version](https://badge.fury.io/js/feathers-nedb-puzzy-search.svg)](https://badge.fury.io/js/feathers-nedb-puzzy-search)
 
-# feathers-nedb-fuzzy-search
+# feathers-nedb-puzzy-search
 Add google-like `$search` to NeDB `service.find` queries.
 
 <p align="center">
-  <img style="max-width: 800px;" src="search.gif"/>
+  <img src="search.gif"/>
 </p>
 
 ## Install
@@ -31,7 +31,7 @@ Besure to whitelist non-standard query parameters in your model.
 That's `['$text', '$regex']` for MongoDB , and `['$where', '$regex']` for NeDB. 
 
 ### Options
-`feathers-nedb-fuzzy-search` take two options in NeDB `$where` mode:
+`feathers-nedb-puzzy-search` take two options in NeDB `$where` mode:
 
 ```js
 search({
@@ -56,7 +56,7 @@ const feathers = require('feathers')
 const hooks = require('feathers-hooks')
 const NeDB = require('nedb')
 const service = require('feathers-nedb')
-const search = require('feathers-nedb-fuzzy-search')
+const search = require('feathers-nedb-puzzy-search')
 
 const Model = new NeDB({
   filename: './example.db',
