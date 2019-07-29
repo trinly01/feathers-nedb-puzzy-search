@@ -7,6 +7,10 @@ Add google-like `$search` to NeDB `service.find` queries.
   <img src="search.gif"/>
 </p>
 
+> **Join and support our Community** <br />
+> Web and Mobile Developers PH <br />
+> [ [Facebook Page](https://fb.com/webmobile.ph) | [Group](https://fb.com/groups/webmobile.ph/) ]
+
 ## Install
 ```
 npm install feathers-nedb-puzzy-search
@@ -99,6 +103,8 @@ async function testDatabase () {
 testDatabase()
   .catch(e => console.error(e))
 ```
+
+# *Join and support our Community* <br /> **Web and Mobile Developers PH** <br/> [ [Facebook Page](https://fb.com/webmobile.ph) | [Group](https://fb.com/groups/webmobile.ph/) ]
 
 ## License
 ISC © 2019 Trinmar Boado

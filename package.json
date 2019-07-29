@@ -1,6 +1,6 @@
 {
   "name": "feathers-nedb-puzzy-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add google-like $search to NeDB service.find queries.",
   "main": "index.js",
   "scripts": {
