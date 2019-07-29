@@ -1,0 +1,42 @@
+{
+  "name": "feathers-nedb-puzzy-search",
+  "version": "1.0.0",
+  "description": "Add google-like $search to NeDB service.find queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinly01/feathers-nedb-puzzy-search.git"
+  },
+  "keywords": [
+    "feathers",
+    "nedb",
+    "search",
+    "fuzzy",
+    "puzzy",
+    "pussy"
+  ],
+  "author": "Trinmar Boado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trinly01/feathers-nedb-puzzy-search/issues"
+  },
+  "homepage": "https://github.com/trinly01/feathers-nedb-puzzy-search#readme",
+  "devDependencies": {
+    "feathers": "^2.1.4",
+    "feathers-hooks": "^2.0.1",
+    "feathers-nedb": "^2.6.2",
+    "mocha": "^3.4.2",
+    "nedb": "^1.8.0"
+  },
+  "dependencies": {
+    "deep-reduce": "^1.0.5",
+    "escape-string-regexp": "^1.0.5",
+    "object-path": "^0.11.4",
+    "feathers-commons": "^0.8.7",
+    "feathers-errors": "^2.9.1",
+    "typo-js": "^1.0.3"
+  }
+}
