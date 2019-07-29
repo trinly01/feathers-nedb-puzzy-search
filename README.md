@@ -4,7 +4,7 @@
 Add google-like `$search` to NeDB `service.find` queries.
 
 <p align="center">
-  <img width="300" src="search.gif"/>
+  <img style="max-width: 800px;" src="search.gif"/>
 </p>
 
 ## Install
